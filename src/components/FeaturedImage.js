@@ -1,5 +1,5 @@
 // Component to display the currently featured full-size image
-import React, { Component } from 'react';
+// import React, { Component } from 'react';
 
 const FeaturedImage = ({ image }) => {
   return (
