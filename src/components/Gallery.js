@@ -1,5 +1,5 @@
 // Component: Gallery -main image gallery functionality
-import React, { Component, useState } from 'react';
+import React, {  useState } from 'react';
 import FeaturedImage from './FeaturedImage';
 import ThumbnailGrid from './ThumbnailGrid';
 import images from '../data/imageData';
