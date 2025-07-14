@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📸 Interactive Image Gallery
 
-## Available Scripts
+A modern and responsive image gallery built using **React.js**.
 
-In the project directory, you can run:
+Users can:
+- View a large **featured image**
+- Browse through **thumbnails**
+- Click thumbnails to update the featured view
+- Navigate using **Previous** and **Next** buttons
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌟 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🖼️ Displays featured image with thumbnail grid
+- 🔄 Thumbnail click changes the featured image
+- ⬅️➡️ Previous & Next buttons to cycle images
+- 🧑‍💻 Clean component structure (React)
+- 📱 **Fully responsive**: works on desktop, tablet, and mobile
+- 🎨 Styled using modern CSS (gradient text, hover effects, grid layout)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- React.js
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+image-gallery/
+├── public/
+│   └── images/
+├── src/
+│   ├── components/
+│   │   ├── Gallery.js
+│   │   ├── FeaturedImage.js
+│   │   └── ThumbnailGrid.js
+│   ├── data/
+│   │   └── imageData.js
+│   ├── App.js
+│   ├── App.css
+├── README.md
+├── package.json
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📱 Responsiveness
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 💻 3 images per row on desktop
+- 📱 2 images per row on tablet
+- 📱 1 image per row on mobile
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 How to Run This Project
 
-## Learn More
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Open in browser**
+   ```
+   http://localhost:3000/  (or 3001 if port changes)
+   ```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧑‍🎓 Assignment Notes
 
-### Analyzing the Bundle Size
+- ✅ Responsive image gallery layout
+- ✅ Modular components
+- ✅ Click-to-view and navigation logic
+- ✅ Styled using CSS Grid and gradients
+- ✅ Fully mobile-friendly
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 👩‍💻 Developed By
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Yashoda**
