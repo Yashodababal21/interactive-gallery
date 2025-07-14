@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # 📸 Interactive Image Gallery
 
@@ -92,3 +93,7 @@ image-gallery/
 ## 👩‍💻 Developed By
 
 **Yashoda**
+=======
+# interactive-gallery
+"Responsive Image Gallery using React.js"
+>>>>>>> 3c2c2ba8c8ddf6999149cff55f4d80dc6bc0e7ec
